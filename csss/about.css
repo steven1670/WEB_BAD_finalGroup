@@ -1,0 +1,58 @@
+#content{
+    display: flex;
+    width: 100vw;
+}
+
+#content form{
+    width: 40vw;
+    text-align: justify;
+    border-left: grey 1px solid;
+    margin: 4vh 2vw;
+    padding: 1vh 1vw;
+}
+
+#content-info{
+    text-align: justify;
+    width: 60vw;
+    margin: 4vh 2vw;
+}
+
+form h2{
+    text-align: center;
+}
+
+#content form > div {
+    margin: 2vh 0;
+}
+
+#content form > div > input{
+    width: 100%;
+    height: 4vh;
+}
+
+#content form > div > textarea{
+    width: 100%;
+    height: 10vh;
+    resize: vertical;
+}
+
+#content form #btn-submit{
+    width: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: steelblue;
+    color: whitesmoke;
+    cursor: pointer;
+    height: 4vh;
+    margin: 1vh;
+    font-weight: bold;
+}
+#content form #btn-submit:hover{
+    background-color: rgb(28, 114, 185);
+}
+
+#content form #btn-submit:active{
+    background-color: rgb(28, 114, 185);
+    box-shadow: 0 0.5vh gray;
+    transform: translateY(0.5vh);
+}

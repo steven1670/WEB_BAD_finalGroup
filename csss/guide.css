@@ -1,0 +1,128 @@
+#recommended-games{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    overflow: scroll;
+    background-color: beige;
+}
+
+.games-item img{
+    width: 12vw;
+    height: 15vw;
+}
+.games-item{
+    margin: 1vw;
+    text-align: center;
+    font-size: 2vh;
+    width: 15vw;
+    height: 18vw;
+}
+.games-item-desc{
+    width: 100%;
+}
+
+.games-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.title{
+    background-color: beige;
+}
+
+#guides-searchBar{
+    margin-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+
+#guides-searchBar #searchGuide{
+    text-align: center;
+    width: 65vw;
+    height: 5vh;
+    font-size: 3vh;
+    float: left;
+    margin-bottom: 2vh;
+}
+
+#guides-searchBar form{
+    background-color: gainsboro;
+    padding: 1vh;
+    width: 70vw;
+}
+
+#guides-searchBar p{
+    width: inherit;
+}
+
+ h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4vh;
+}
+
+.btnGuide{
+    height: 5vh;
+    width: 5vw;
+    border: none;
+    background-color: rgb(131, 9, 33);
+    float: left;
+    border-radius: 5px;
+    font-size: 3vh;
+    color: white;
+    cursor: pointer;
+}
+.btnGuide:hover{
+    background-color: rgb(80, 6, 21);
+}
+
+
+#guide-list{
+    width: 100vw;
+    height: auto;
+    justify-content: start;
+    margin-top: 2vh;
+}
+.guide-item{
+    display: flex;
+    border-bottom: grey 1px solid;
+    margin: 2vh;
+}
+
+.guide-item-desc{
+    margin-left: 2vw;
+    width: 75vw;
+}
+
+.guide-item-desc p{
+    text-align: justify;
+    width: 100%;
+}
+
+.guide-item img{
+    width: 25vw;
+    height: 20vh;
+}
+
+#article{
+    width: 90%;
+    padding: 1vh 2vw 1vh 5vw;
+}
+
+.guide-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.guide-item a:hover{
+    text-decoration: underline;
+    color: maroon;
+}
+.guide-item:hover{
+    background-color: beige;
+}
+
+.guide-item:hover img{
+    opacity: 0.5;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="csss/style.css">
+  <link rel="stylesheet" href="csss/about.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <a href="home.html"><img src="" alt="GAMETIME"></a>
+      <form action="">
+        <input type="text" placeholder="Search News..." name="search">
+        <button type="submit">Search</button>
+      </form>
+    </header>
+    <nav class="navbar">
+      <ul class="navi-main">
+        <a href="home.html">
+          <li class="navi-main-list">Home</li>
+        </a>
+        <a href="guide.html">
+          <li class="navi-main-list">Guide & Walkthrough</li>
+        </a>
+        <a href="about.html" class="current">
+          <li class="navi-main-list">About Us</li>
+        </a>
+      </ul>
+    </nav>
+
+    <span id="content">
+      <div id="content-info">
+        <h2>About GameTime</h2>
+        <p>
+          &emsp; GameTime is a website for all gamers from all platform, we provide gaming news content
+          weekly, and we also provide walkthrough and guides for games. Our library contains 1000+ gaming
+          walkthrough & guides. GameTime aims to make things easier for you, keeping up-to-date with
+          all that is happening in the gaming industry, or just enjoy our guides and play some games.
+          <br><br>
+          &emsp;From PC to Console Video Games. Here you can find all Game Guides
+          that were published.
+          We focus on creating very detailed Game Solutions, clear and useful Game Maps and Atlases that will help you
+          in finding all the Secrets and Collectibles that games have to offer. Moreover, you can find lists of Game
+          Achievements, general advice, Tips and Tricks, answers to FAQ and System Requirements for PC games. Our Game
+          Guides are complemented by high quality screenshots that will help you find your way around every game.
+          The whole team behind our guides consists of extremely experienced players and passionate gamers.
+        </p>
+      </div>
+      <div>
+        <form action="home.html" onsubmit="return validate()">
+          <h2>Feedback Form</h2>
+          <hr>
+
+          <div>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name here..">
+          </div>
+
+          <div>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email address here..">
+          </div>
+
+          <div>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" placeholder="Enter your title here..">
+          </div>
+
+          <div>
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message.."></textarea>
+          </div>
+
+          <input type="submit" id="btn-submit" value="Submit Feedback">
+        </form>
+
+      </div>
+    </span>
+
+    <footer>
+      <p>&copy;2021 This website is made by GameTime Inc. All rights and reserved.</p>
+      <p>GameTime offers weekly gaming news, gaming guides, and gaming walkthrough on our website for Free.</p>
+    </footer>
+
+  </div>
+
+</body>
+<script src="js/validation.js"></script>
+
+</html>

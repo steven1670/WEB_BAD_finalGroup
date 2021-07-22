@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="csss/style.css">
+    <link rel="stylesheet" href="csss/home.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="home.html"><img src="" alt="GAMETIME"></a>
+            <form action="">
+                <input type="text" placeholder="Search News..." name="search">
+                <button type="submit">Search</button>
+            </form>
+        </header>
+        <nav class="navbar">
+            <ul class="navi-main">
+                <a href="home.html" class="current">
+                    <li class="navi-main-list">Home</li>
+                </a>
+                <a href="guide.html">
+                    <li class="navi-main-list">Guide & Walkthrough</li>
+                </a>
+                <a href="about.html">
+                    <li class="navi-main-list">About Us</li>
+                </a>
+            </ul>
+        </nav>
+
+
+        <div id="home-events">
+            <!-- main event of the month -->
+            <div class="slides fade">
+                <div class="slide-content">
+                    <img src="http://cdn.wccftech.com/wp-content/uploads/2015/03/The-Witcher-3-Wild-Hunt-1.jpg" alt="">
+                    <div class="caption">The Witcher 3 Celebrates its 6th year anniversary</div>
+                </div>
+            </div>
+            <div class="slides fade">
+                <div class="slide-content">
+                    <img src="https://gameranx.com/wp-content/uploads/2020/07/tetra-preorder-standard-edition-epic-image-hero-carrousel-3840x2160-3840x2160-430977812.png.jpeg"
+                        alt="">
+                    <div class="caption">Far Cry 6 Just dropped a new trailer</div>
+                </div>
+            </div>
+            <div class="slides fade">
+                <div class="slide-content">
+                    <img src="https://static1.gamerantimages.com/wordpress/wp-content/uploads/2021/06/halo-infinite-multiplayer-battle-pass-cross-progression.jpg"
+                        alt="">
+                    <div class="caption">The long awaited Halo Infinte is closer than you think</div>
+                </div>
+            </div>
+
+            <!-- controller buttons -->
+            <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+            <a class="next" onclick="nextSlide(1)">&#10095;</a>
+
+            <!-- slides indicator -->
+            <div id="slideIndicator">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <br>
+
+        <hr>
+
+
+        <h2>Upcoming Video Games</h2>
+        <hr>
+        <div id="ongoing-events">
+            <!-- on-going event || video of tourney  -->
+            <div class="ongoing-events-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1O6Qstncpnc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="ongoing-events-item-desc">
+                    GET A VIEW OF THE NEW HARRYPOTTER GAME NOW FOR PS4
+                </div>
+            </div>
+            <div class="ongoing-events-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UwJAAy7tPhE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="ongoing-events-item-desc">
+                    WATCH THE OFFICIAL GAMEPLAY OF DYING LIGHT 2 STAY HUMAN NOW
+                </div>
+            </div>
+            <div class="ongoing-events-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-IJuKT1mHO8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="ongoing-events-item-desc">
+                    WATCH THE NEW TRAILER DROPPED FOR FARCRY 6
+                </div>
+            </div>
+            <div class="ongoing-events-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wDZ-9B6hX5A"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <div class="ongoing-events-item-desc">
+                    WATCH THE NEW HALO INFINITE OVERVIEW E3 2021
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <span id="news-section">
+
+            <div class="news-content">
+                <article id="article">
+                    <h2>Latest Video Game News</h2>
+                    <hr>
+                    <span class="news-item">
+                         <a href="article.html"><img
+                                src="https://cdn2.unrealengine.com/egs-battlefield2042-dice-g1a-00-1920x1080-af32ac7d0c5a.jpg"
+                                alt=""></a>
+                         <a href="article.html" class="news-item-desc">
+
+                            <h3>Impressive Gameplay From Battlefield 2042 at E3 2021</h3>
+                            <p>
+                                As announced, EA showed off the first gameplay from Battlefield 2042 during the Xbox
+                                & Bethesda Showcase on the occasion of E3 2021.
+                                The video makes you feel the huge scale of the conflict.
+                            </p>
+
+                        </a>
+                    </span>
+                    <span class="news-item">
+                         <a href="article.html"><img
+                                src="https://www.well-played.com.au/wp-content/uploads/2021/06/S.T.A.L.K.E.R.-2-splash-1024x576.jpg"
+                                alt=""></a>
+                         <a href="article.html" class="news-item-desc">
+                            <h3>STALKER 2 Gameplay Trailer; Launch in April</h3>
+                            <p>
+                                The new call of duty game is just around the corner, Call of Duty : Modern Warfare.
+                                Currently there is a lot of hype around the game, the sneak peek gameplay is already
+                                out. And it is amazing, if you miss it you can watch it on Activision youtube channel.
+                            </p>
+                        </a>
+                    </span>
+                    <span class="news-item">
+                         <a href="article.html"><img
+                                src="https://nbpostgazette.com/wp-content/uploads/2019/06/Final-Fantasy-7-Remake-Release-Date-Trailer-News-Rumours-And-More.jpeg"
+                                alt=""></a>
+                         <a href="article.html" class="news-item-desc">
+                            <h3>Final Fantasy 7 Remake on PS5 - Game Size Revealed</h3>
+                            <p>
+                                We know how much space Final Fantasy VII Remake Intergrade will take up.
+                                The developers have slightly reduced the size of the PS5 release compared to PS4,
+                                albeit not as much as gamers might have wanted.
+                            </p>
+                        </a>
+                    </span>
+                    <span class="news-item">
+                         <a href="article.html"><img
+                                src="https://images.gog-statics.com/df6641d5c45710daa86da8827ce074236c12d057ea4ae2c892b7982f24cbfcc7.jpg"
+                                alt=""></a>
+                         <a href="article.html" class="news-item-desc">
+                            <h3>Release Date and New Gameplay From Chernobylite</h3>
+                            <p>
+                                We found out the exact release date of the full version of Chernobylite on PC.
+                                In addition, The Farm 51 shared the approximate date of the console debut and shared a
+                                new gameplay.
+                            </p>
+                        </a>
+                    </span>
+                    <span class="news-item">
+                         <a href="article.html"><img
+                                src="https://static0.srcdn.com/wordpress/wp-content/uploads/2018/06/Dying-Light-2-Key-Art.jpg"
+                                alt=""></a>
+                         <a href="article.html" class="news-item-desc">
+                            <h3>Dying Light 2 Devs Discuss the Story and the Main Character</h3>
+                            <p>
+                                On the occasion of PC Gaming Show we received some new information about Dying Light 2.
+                                We heard a few details about the main character - Aiden Caldwell - and the world in
+                                which we will play.
+                            </p>
+                        </a>
+                    </span>
+                </article>
+
+            </div>
+
+
+            <div id="sideNews">
+                <div id="content">
+                    <header>
+                        <button class="btn clicked" id="btnGamesReview" onclick="clickReview()">Game Review</button>
+                        <button class="btn" id="btnGamesWalkthrough" onclick="clickWalkthrough()">Game
+                            Walkthrough</button>
+                    </header>
+                    <ul id="reviewList">
+                        <a href="https://sea.ign.com/review/166807/cyberpunk-2077-review"><li>Last Of Us 2 Review</li></a>
+                        <a href="https://sea.ign.com/review/166807/cyberpunk-2077-review"><li>Assasins Creed odyssey Review</li></a>
+                        <a href="https://sea.ign.com/review/166807/cyberpunk-2077-review"><li>Resident Evil Village Review</li></a>
+                        <a href="https://sea.ign.com/review/166807/cyberpunk-2077-review"><li>Ratchet Clank apart Review</li></a>
+                    </ul>
+                    <ul id="walkthroughList" class="hidden">
+                        <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Walkthrough"><li>Far cry 6 Guide</li></a>
+                        <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Walkthrough"><li>Rainbow six siege Guide</li></a>
+                        <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Walkthrough"><li>Cyberpunk 2077 Guide</li></a>
+                        <a href="https://www.ign.com/wikis/final-fantasy-7-remake/Walkthrough"><li>Call of duty modern warfare Guide</li></a>
+                    </ul>
+                </div>
+            </div>
+
+
+        </span>
+
+        <footer>
+            <p>&copy;2021 This website is made by GameTime Inc. All rights and reserved.</p>
+            <p>GameTime offers weekly gaming news, gaming guides, and gaming walkthrough on our website for Free.</p>
+        </footer>
+    </div>
+
+
+</body>
+<script src="js/script.js"></script>
+<script src="js/slideshow.js"></script>
+
+</html>
